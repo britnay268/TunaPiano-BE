@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TunaPiano_BE.Models;
 using TunaPiano_BE.Data;
-namespace TunaPiano_BE;
 
 public class TunaPiano_BEDbContext : DbContext
 {

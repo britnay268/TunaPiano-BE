@@ -14,7 +14,7 @@ public class ArtistData
         },
         new Artist
         {
-            Id = 1,
+            Id = 2,
             Name = "Tems",
             Age = 27,
             Bio = "Nigerian singer and songwriter known for her soulful voice and introspective lyrics"

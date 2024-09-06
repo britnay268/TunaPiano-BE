@@ -18,7 +18,7 @@ public class GenreData
         },
         new Genre
         {
-            Id = 2,
+            Id = 3,
             Description = "Jazz"
         },
         new Genre

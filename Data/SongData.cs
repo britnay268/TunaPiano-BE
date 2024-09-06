@@ -3,8 +3,8 @@ namespace TunaPiano_BE.Data;
 
 public class SongData
 {
-	public static List<Song> Songs = new List<Song>
-	{
+    public static List<Song> Songs = new List<Song>
+    {
         new Song
         {
             Id = 1,
@@ -12,7 +12,6 @@ public class SongData
             ArtistId = 1,
             Album = "Love, Damini",
             Length = 240.5,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -21,7 +20,6 @@ public class SongData
             ArtistId = 2,
             Album = "If Orange Was the Color of Sky",
             Length = 210.2,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -30,7 +28,6 @@ public class SongData
             ArtistId = 3,
             Album = "Nothing But the Beat",
             Length = 270.8,
-            Genres = new List<Genre> { GenreData.Genres[1] }
         },
         new Song
         {
@@ -39,7 +36,6 @@ public class SongData
             ArtistId = 4,
             Album = "Animals",
             Length = 255.3,
-            Genres = new List<Genre> { GenreData.Genres[1] }
         },
         new Song
         {
@@ -48,7 +44,6 @@ public class SongData
             ArtistId = 5,
             Album = "Kind of Blue",
             Length = 300.0,
-            Genres = new List<Genre> { GenreData.Genres[2] }
         },
         new Song
         {
@@ -57,7 +52,6 @@ public class SongData
             ArtistId = 6,
             Album = "Giant Steps",
             Length = 285.7,
-            Genres = new List<Genre> { GenreData.Genres[2] }
         },
         new Song
         {
@@ -66,7 +60,6 @@ public class SongData
             ArtistId = 7,
             Album = "The Rebirth",
             Length = 220.1,
-            Genres = new List<Genre> { GenreData.Genres[3] }
         },
         new Song
         {
@@ -75,7 +68,6 @@ public class SongData
             ArtistId = 8,
             Album = "Grace",
             Length = 235.6,
-            Genres = new List<Genre> { GenreData.Genres[3] }
         },
         new Song
         {
@@ -84,7 +76,6 @@ public class SongData
             ArtistId = 1,
             Album = "Twice as Tall",
             Length = 260.9,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -93,7 +84,6 @@ public class SongData
             ArtistId = 2,
             Album = "If Orange Was the Color of Sky",
             Length = 200.4,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -102,7 +92,6 @@ public class SongData
             ArtistId = 3,
             Album = "Nothing But the Beat",
             Length = 290.2,
-            Genres = new List<Genre> { GenreData.Genres[1] }
         },
         new Song
         {
@@ -110,7 +99,7 @@ public class SongData
             Title = "In My Mind",
             ArtistId = 4,
             Album = "Animals",
-            Length = 275.5, Genres = new List<Genre> { GenreData.Genres[1] }
+            Length = 275.5,
         },
         new Song
         {
@@ -119,7 +108,6 @@ public class SongData
             ArtistId = 5,
             Album = "Kind of Blue",
             Length = 310.7,
-            Genres = new List<Genre> { GenreData.Genres[2] }
         },
         new Song
         {
@@ -128,7 +116,6 @@ public class SongData
             ArtistId = 6,
             Album = "Giant Steps",
             Length = 295.1,
-            Genres = new List<Genre> { GenreData.Genres[2] }
         },
         new Song
         {
@@ -137,7 +124,6 @@ public class SongData
             ArtistId = 7,
             Album = "The Rebirth",
             Length = 215.8,
-            Genres = new List<Genre> { GenreData.Genres[3] }
         },
         new Song
         {
@@ -146,7 +132,6 @@ public class SongData
             ArtistId = 8,
             Album = "Grace",
             Length = 230.3,
-            Genres = new List<Genre> { GenreData.Genres[3] }
         },
         new Song
         {
@@ -155,7 +140,6 @@ public class SongData
             ArtistId = 1,
             Album = "Twice as Tall",
             Length = 250.6,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -164,7 +148,6 @@ public class SongData
             ArtistId = 2,
             Album = "If Orange Was the Color of Sky",
             Length = 190.1,
-            Genres = new List<Genre> { GenreData.Genres[0] }
         },
         new Song
         {
@@ -173,7 +156,6 @@ public class SongData
             ArtistId = 3,
             Album = "Nothing But the Beat",
             Length = 280.4,
-            Genres = new List<Genre> { GenreData.Genres[1] }
         },
         new Song
         {
@@ -182,7 +164,6 @@ public class SongData
             ArtistId = 4,
             Album = "Animals",
             Length = 265.7,
-            Genres = new List<Genre> { GenreData.Genres[1] }
         }
     };
 }
