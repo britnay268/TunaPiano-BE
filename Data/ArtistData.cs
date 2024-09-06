@@ -3,7 +3,7 @@ namespace TunaPiano_BE.Data;
 
 public class ArtistData
 {
-	public List<Artist> Artists = new List<Artist>()
+	public static List<Artist> Artists = new List<Artist>
 	{
         new Artist
         {

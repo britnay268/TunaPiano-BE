@@ -4,7 +4,7 @@ namespace TunaPiano_BE.Data;
 
 public class GenreData
 {
-	public static List<Genre> Genres = new List<Genre>()
+	public static List<Genre> Genres = new List<Genre>
 	{
 		new Genre
 		{

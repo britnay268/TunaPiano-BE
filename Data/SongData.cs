@@ -3,7 +3,7 @@ namespace TunaPiano_BE.Data;
 
 public class SongData
 {
-	public List<Song> Songs = new List<Song>()
+	public static List<Song> Songs = new List<Song>
 	{
         new Song
         {
