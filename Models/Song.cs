@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace TunaPiano_BE.Models;
 
 public class Song
@@ -9,6 +11,6 @@ public class Song
 	public Artist Artist { get; set; }
 	public string Album { get; set; }
 	public double Length { get; set; }
-	List<Genre> Genres { get; set; }
+	public List<Genre> Genres { get; set; }
 }
 
