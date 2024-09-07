@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http.Json;
+using TunaPiano_BE.API;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,5 +31,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+SongAPI.Map(app);
 
 app.Run();
