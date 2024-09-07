@@ -34,5 +34,6 @@ app.UseHttpsRedirection();
 
 SongAPI.Map(app);
 ArtistAPI.Map(app);
+GenreAPI.Map(app);
 
 app.Run();
