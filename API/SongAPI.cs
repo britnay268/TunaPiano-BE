@@ -6,6 +6,7 @@ public class SongAPI
 {
     public static void Map(WebApplication app)
     {
+        // Get All Songs
         app.MapGet("/api/songs", (TunaPiano_BEDbContext db) =>
         {
             return db.Songs.Select(s => new
@@ -20,6 +21,7 @@ public class SongAPI
             });
         });
 
+        // Get Song by Id
         app.MapGet("/api/song/{id}", (TunaPiano_BEDbContext db, int id) =>
         {
             try
@@ -39,6 +41,7 @@ public class SongAPI
             }
         });
 
+        // Create a Song
         app.MapPost("/api/song", (TunaPiano_BEDbContext db, Song song) =>
         {
             db.Songs.Add(song);
@@ -46,6 +49,7 @@ public class SongAPI
             return Results.Created($"/api/song/{song.Id}", song);
         });
 
+        // Update a Song
         app.MapPut("/api/song/{id}", (TunaPiano_BEDbContext db, int id, Song songToUpdate) =>
         {
             Song song = db.Songs.SingleOrDefault(s => s.Id == id);
@@ -64,6 +68,7 @@ public class SongAPI
             return Results.NotFound();
         });
 
+        // Delete a Song
         app.MapDelete("/api/song/{id}", (TunaPiano_BEDbContext db, int id) =>
         {
             Song song = db.Songs.SingleOrDefault(s => s.Id == id);
